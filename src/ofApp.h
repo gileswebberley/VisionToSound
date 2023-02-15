@@ -23,7 +23,7 @@ class ofApp : public ofBaseApp{
     //[0..255) how bright to trigger a sound
     int playThreshold{190};
     //set sequencer bpm, samples folder
-    GwSequencer mySequencer{240,"elec_piano"};
+    GwSequencer mySequencer{120,"drums_one"};
     //a default value of C
     NOTES currentNote{NOTES::C};
     //beats to wait between playing same note

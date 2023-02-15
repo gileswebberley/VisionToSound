@@ -31,7 +31,8 @@ bool InputSelector::setupInput()
         {
             vidGrabber.setVerbose(true);
             vidGrabber.listDevices();
-            vidGrabber.setDeviceID(0);
+            //check which index the camera you wish to use has in the device list
+            vidGrabber.setDeviceID(1);
             if(vidGrabber.initGrabber(640,360)){
             isWidth = vidGrabber.getWidth();
             isHeight = vidGrabber.getHeight();

@@ -1,78 +1,72 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<ClCompile Include="src\ofApp.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\main.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\gwfiltration.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\gwhistogram.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\kelvinconverter.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\gwsequencer.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\pixelator.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\inputselector.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\gwlistening.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\jukebox.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\jukebox_copy.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-	</ItemGroup>
-	<ItemGroup>
-		<Filter Include="src">
-			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
-		</Filter>
-	</ItemGroup>
-	<ItemGroup>
-		<ClInclude Include="src\ofApp.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\kelvinconverter.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\gwhistogram.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\inputselector.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\pixelator.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\gwsequencer.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\jukebox_copy.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\jukebox.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\gwlistening.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\gwfiltration.h">
-			<Filter>src</Filter>
-		</ClInclude>
-	</ItemGroup>
-	<ItemGroup>
-		<ResourceCompile Include="icon.rc" />
-	</ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gwfiltration.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gwhistogram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kelvinconverter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gwsequencer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pixelator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inputselector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gwlistening.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jukebox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kelvinconverter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gwhistogram.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inputselector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pixelator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gwsequencer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jukebox.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gwlistening.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gwfiltration.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
 </Project>
